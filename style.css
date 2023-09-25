@@ -4,22 +4,26 @@ body {
 }
 .container {
   background-color: rgb(48, 46, 46, 0.815);
-  margin: 45px;
+  margin: 17px 125px;
   border-radius: 15px;
+  padding: 0px 60px;
 }
 h1 {
   font-family: "Lobster Two", cursive;
   font-weight: 700px;
-  font-size: 48px;
+  font-size: 65px;
   color: lightgray;
-  text-align: center;
 }
 span {
-  color: red;
+  color: rgb(248, 10, 10);
 }
 img {
   width: 18em;
-  border-radius: 35px;
+  border-radius: 26px;
+  box-shadow: 6px 6px 150px 5px rgb(231, 23, 23);
+}
+p {
+  font-size: 12px;
 }
 .header-part {
   text-align: center;
@@ -32,5 +36,31 @@ h2 {
 }
 article {
   text-align: justify;
+  font-size: 20px;
   margin: 12px 25px;
+}
+ul {
+  line-height: 1.8;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 7px;
+}
+footer p {
+  font-size: 22px;
+}
+a {
+  background-color: black;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 11px;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: rgb(48, 46, 46, 0.815);
 }
