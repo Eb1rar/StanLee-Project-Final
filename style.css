@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  background-color: rgb(48, 46, 46, 0.815);
+  margin: 45px;
+  border-radius: 15px;
+}
+h1 {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700px;
+  font-size: 48px;
+  color: lightgray;
+  text-align: center;
+}
+span {
+  color: red;
+}
+img {
+  width: 18em;
+  border-radius: 35px;
+}
+.header-part {
+  text-align: center;
+}
+h2 {
+  font-family: "Lobster Two", cursive;
+  font-weight: bolder;
+  color: red;
+  padding-left: 25px;
+}
+article {
+  text-align: justify;
+  margin: 12px 25px;
+}
